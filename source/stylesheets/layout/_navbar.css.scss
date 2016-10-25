@@ -1,10 +1,10 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: black;
-$navbar-hover-color: $yellow;
-$navbar-font-family: $header-font;
-$navbar-bg: white;
+$navbar-color: white;
+$navbar-hover-color: $green;
+$navbar-font-family: $base-font;
+$navbar-bg: rgba(0, 0, 0, 0.4);;
 
 /* -------------------------------------
  * Box model
@@ -38,12 +38,13 @@ $navbar-profile-border-width: 2px;
   background: $navbar-bg;
   font-family: $navbar-font-family;
   border: none;
-  font-weight: 400;
+  font-weight: 300;
   padding-left: $navbar-horizontal-padding;
   padding-right: $navbar-horizontal-padding;
   border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
   min-height: 0;
   transition: background 0.4s ease;
+  font-size: 20px;
 
   .navbar-nav > li > a,
   .navbar-nav > .open > a,
@@ -129,6 +130,23 @@ $navbar-profile-border-width: 2px;
     z-index: -1;
   }
 }
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+.navbar-nav > li{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
 
 /* -------------------------------------
  * Navbar profile picture
