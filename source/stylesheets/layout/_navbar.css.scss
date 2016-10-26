@@ -62,11 +62,16 @@ $navbar-profile-border-width: 2px;
             transition: all 0.3s ease;
   }
 
+
+
+
   .navbar-nav > li > a:hover,
   .navbar-nav > .open > a:hover {
     color: $navbar-hover-color;
     background-color: transparent;
+
   }
+
 
   .navbar-brand,
   .navbar-brand:hover {
